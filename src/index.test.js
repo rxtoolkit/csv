@@ -6,8 +6,9 @@ import * as api from './index';
 
 describe('index', () => {
   it('should export a function', () => {
-    expect(api).to.deep.include([
-      'myPublicFunction1', // FIXME
+    expect(Object.keys(api)).to.deep.equal([
+      'parseCSV',
+      'toCSV',
     ]);
   });
 });
