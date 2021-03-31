@@ -16,7 +16,7 @@ yarn add @buccaneerai/rxjs-csv
 
 ```js
 import {from} from 'rxjs';
-import {toCsv} from '@bottlenose/rxcsv';
+import {toCsv} from '@buccaneer/rxjs-csv';
 
 const pirate$ = from([
   {name: 'Blackbeard', systolicBp: 140, diastolicBp: 91, message: 'Yarr'},
