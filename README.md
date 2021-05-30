@@ -16,7 +16,7 @@ yarn add @buccaneerai/rxjs-csv
 
 ```js
 import {from} from 'rxjs';
-import {toCsv} from '@buccaneer/rxjs-csv';
+import {toCSV} from '@buccaneer/rxjs-csv';
 
 const pirate$ = from([
   {name: 'Blackbeard', systolicBp: 140, diastolicBp: 91, message: 'Yarr'},
@@ -24,7 +24,7 @@ const pirate$ = from([
   {name: 'Blackbeard', systolicBp: 110, diastolicBp: 70, message: 'Savvy'},
 ]);
 
-const csvRow$ = pirate$.pipe(toCsv(options));
+const csvRow$ = pirate$.pipe(toCSV(options));
 csvRow$.subscribe(console.log);
 // "name","systolicBp","dialostilicBp","message"
 // "Blackbeard",140,91,"Yarr"
@@ -37,7 +37,7 @@ Given a stream of CSV data, parse it into rows/data:
  ```js
  import { from } from 'rxjs';
  import { map } from 'rxjs/operators';
- import { parse } from '@buccaneerai/rxjs-csv';
+ import { parseCSV } from '@buccaneerai/rxjs-csv';
 
  // Create a stream of raw CSV data
  const csvString$ = from([
@@ -47,7 +47,7 @@ Given a stream of CSV data, parse it into rows/data:
  ]);
 
  // Stream the CSV data into an RxJS Subject
- const row$ = csvString$.pipe(parse());
+ const row$ = csvString$.pipe(parseCSV());
  row$.subscribe(console.log);
  // {name: "Blackbeard", systolicBp: 140, diastolicBp: 91, message: 'Yarr'},
  // {name: "Crunch", systolicBp: 120, diastolicBp: 80, message: 'Arr'},
