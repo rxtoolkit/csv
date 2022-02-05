@@ -1,6 +1,6 @@
 {
   "name": "@buccaneerai/rxjs-csv",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "🚰  RxJS operators for handling CSV data streams",
   "main": "dist/index.js",
   "repository": "https://github.com/buccaneerai/rxjs-csv.git",
@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "@buccaneerai/rxjs-streams": "^0.3.0",
-    "csv-parse": "^v4.0",
+    "csv-parse": "4.15.3",
     "json2csv": "^5.0.6",
     "lodash": "^4.17.20",
     "rxjs": "^6.6.3"
