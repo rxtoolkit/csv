@@ -896,6 +896,14 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
+"@buccaneerai/rxjs-streams@^0.3.0":
+  version "0.3.0"
+  resolved "https://npm.pkg.github.com/download/@buccaneerai/rxjs-streams/0.3.0/d4d724bec8411bbfed5b2d3f33821678f41366ed32ec526660f6415f18891275#50014087c14663abbbf5f8b6a8de8277fc711145"
+  integrity sha512-eODAF4qebnB2/wJMYbNQDrkX9ykz9i3jCfmmOzFrKZb3XtSQUEaiKq6DOUG2M9QeAYJbA01kP+HjFxCNMBRINQ==
+  dependencies:
+    lodash "^4.17.20"
+    rxjs "^6.6.3"
+
 "@nicolo-ribaudo/chokidar-2@2.1.8-no-fsevents":
   version "2.1.8-no-fsevents"
   resolved "https://registry.yarnpkg.com/@nicolo-ribaudo/chokidar-2/-/chokidar-2-2.1.8-no-fsevents.tgz#da7c3996b8e6e19ebd14d82eaced2313e7769f9b"
@@ -1367,10 +1375,10 @@ core-util-is@~1.0.0:
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
   integrity sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
 
-csv-parse@^4.15.3:
-  version "4.15.3"
-  resolved "https://registry.yarnpkg.com/csv-parse/-/csv-parse-4.15.3.tgz#8a62759617a920c328cb31c351b05053b8f92b10"
-  integrity sha512-jlTqDvLdHnYMSr08ynNfk4IAUSJgJjTKy2U5CQBSu4cN9vQOJonLVZP4Qo4gKKrIgIQ5dr07UwOJdi+lRqT12w==
+csv-parse@^v4.0:
+  version "4.16.3"
+  resolved "https://registry.yarnpkg.com/csv-parse/-/csv-parse-4.16.3.tgz#7ca624d517212ebc520a36873c3478fa66efbaf7"
+  integrity sha512-cO1I/zmz4w2dcKHVvpCr7JVRu8/FymG5OEpmvsZYlccYolPBLoVGKUHgNoc4ZGkFeFlWGEDmMyBM+TTqRdW/wg==
 
 debug@4.2.0:
   version "4.2.0"
@@ -2580,11 +2588,6 @@ rxjs-report-usage@^1.0.4:
     chalk "~4.1.0"
     glob "~7.1.6"
     prompts "~2.3.2"
-
-rxjs-stream@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/rxjs-stream/-/rxjs-stream-3.2.1.tgz#928e356150a917d6f741e2e08339414fdcbd71f1"
-  integrity sha512-SbubqPmtaEU1YZEU3HChFutKCKc4uB3kMykaciP+yH7hoq9UY5zC85OoviCf+woWMngXBUfEziFNRwsh59mgJA==
 
 rxjs@^6.6.3:
   version "6.6.3"

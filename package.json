@@ -29,11 +29,11 @@
     "test": "mocha --require @babel/register --require @babel/polyfill \"./{,!(node_modules)/**/}*.test.js\" --exit --require source-map-support"
   },
   "dependencies": {
-    "csv-parse": "^4.15.3",
+    "@buccaneerai/rxjs-streams": "^0.3.0",
+    "csv-parse": "^v4.0",
     "json2csv": "^5.0.6",
     "lodash": "^4.17.20",
-    "rxjs": "^6.6.3",
-    "rxjs-stream": "^3.2.1"
+    "rxjs": "^6.6.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.13",
