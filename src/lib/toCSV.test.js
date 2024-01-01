@@ -1,7 +1,7 @@
 import {expect} from 'chai';
 import {marbles} from 'rxjs-marbles/mocha';
 
-import toCsv, {reorderObjectKeys, reduceIndexAndColumnNames} from './toCsv';
+import toCsv, {reorderObjectKeys, reduceIndexAndColumnNames} from './toCSV';
 
 const rows = [
  {carModel: 'Audi', price: 10000, color: 'blue'},
