@@ -1,6 +1,6 @@
 {
   "name": "@rxtk/csv",
-  "version": "2.1.2",
+  "version": "2.1.3",
   "description": "🚰  RxJS operators for handling CSV data streams",
   "main": "dist/index.js",
   "repository": "https://github.com/rxtoolkit/csv.git",
