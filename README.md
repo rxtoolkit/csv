@@ -1,13 +1,10 @@
-# @buccaneerai/rxjs-csv
+# @rxtk/csv
 > 🚰  RxJS operators for handling CSV data streams
 
 > ☠️ Warning: Be careful about upgrading the version of csv-parse used in this package. csv-parse does not use proper semantic versioning.  For example upgrading it from 4.15 to 4.16 introduces breaking changes that will cause code that previously parsed CSV properly to no longer do so. Any such updates may require a major version change to this package.
 
-## Installation
-This is a private package. It requires setting up access in your npm config.
-
 ```bash
-yarn add @buccaneerai/rxjs-csv
+yarn add @rxtk/csv
 ```
 
 ## API
@@ -16,7 +13,7 @@ yarn add @buccaneerai/rxjs-csv
 
 ```js
 import {from} from 'rxjs';
-import {toCSV} from '@buccaneer/rxjs-csv';
+import {toCSV} from '@rxtk/csv';
 
 const pirate$ = from([
   {name: 'Blackbeard', systolicBp: 140, diastolicBp: 91, message: 'Yarr'},
@@ -37,7 +34,7 @@ Given a stream of CSV data, parse it into rows/data:
  ```js
  import { from } from 'rxjs';
  import { map } from 'rxjs/operators';
- import { parseCSV } from '@buccaneerai/rxjs-csv';
+ import { parseCSV } from '@rxtk/csv';
 
  // Create a stream of raw CSV data
  const csvString$ = from([

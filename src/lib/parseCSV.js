@@ -14,7 +14,7 @@ import {
   tap
 } from 'rxjs/operators';
 
-import {streamFromObservable} from '@buccaneerai/rxjs-streams';
+import {streamFromObservable} from '@rxtk/rxjs-streams';
 
 // see https://csv.js.org/parse/options/
 const defaultOptions = {
