@@ -4,6 +4,10 @@
 > ☠️ Warning: Be careful about upgrading the version of csv-parse used in this package. csv-parse does not use proper semantic versioning.  For example upgrading it from 4.15 to 4.16 introduces breaking changes that will cause code that previously parsed CSV properly to no longer do so. Any such updates may require a major version change to this package.
 
 ```bash
+npm i @rxtk/csv
+```
+
+```bash
 yarn add @rxtk/csv
 ```
 
